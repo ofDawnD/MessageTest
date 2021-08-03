@@ -3,7 +3,7 @@ name: Message Test
 on:
   schedule:
     - cron: ${{ secrets.CRON_SCHEDULE }}
-  workflow_dispatch:
+  # workflow_dispatch:
 
 jobs:
   build:
